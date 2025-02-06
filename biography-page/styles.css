@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana, sans-serif;
+    background-color: darkgrey;
+  }
+  
+  #title, #title-cap {
+    background-color: slategray;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 35px;
+    color: white;
+  }
+  
+  #title-cap {
+    font-size: 18px;
+    font-style: italic;
+    border-bottom: 5px solid black;
+    margin-bottom: 10px;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  figcaption {
+    text-align: center;
+    font-weight: 700;
+    background-color: slategrey;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 50%;
+  }
+  
+  ul {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  
