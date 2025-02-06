@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px auto;
+}
+
+body {
+    background-color: gray;
+}
+
+.description {
+    font-style: italic;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px auto;
+}
+
+.form-container {
+    margin: auto;
+    max-width: 300px;
+    background-color: slategrey;
+}
+
+.divider {
+    margin: 5px auto;
+    
+}
+
+.option-title {
+    padding-bottom: 10px;
+}
+
+input {
+    display: block;
+    margin: auto 15px;
+}
+
+legend {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+hr {
+    margin: 15px auto;
+}

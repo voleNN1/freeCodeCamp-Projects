@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <div class="header">
+  <h1 id="title">freeCodeCamp Survey</h1>
+
+  <p id="description" class="description">Please help us improve by filling out this survey on your experiences so far.</p>
+  </div>
+  <body>
+    <fieldset class="form-container">
+      <form id="survey-form">
+        <div class="divider">
+
+          <label id="name-label" for="name">Name</label>
+
+          <input id="name" type="text" placeholder="Please enter your name"required/>
+        </div>
+
+        <div class="divider">
+          <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" placeholder="Please enter your Email" required />
+        </div>
+
+        <div class="divider">
+         <label id="number-label" for="age">Age (optional)</label>
+          <input id="number" type="number" min="13" max="120" placeholder="Age" />
+        </div>
+
+        <div class="divider">
+          <p>What is your goal with freeCodeCamp?</p>
+          <select id="dropdown">
+            <option disabled selected value>Please select one</option>
+            <option>I'm a beginner looking to grow my skills.</option>
+            <option>I have some experience, but feel this could help with employment.</option>
+            <option>I'm already a professional Web Dev, but I wanted to see the effectiveness of the site.</option>
+          </select>
+        </div>
+
+        <hr>
+
+        <div class="divider">
+          <legend>How likely are you to recommend freeCodeCamp?</legend>
+
+          <label class="option-title" for="very-likely">Very Likely</label><input type="radio" name="recommend" id="very-likely" value="very-likely" checked required/>
+
+          <label class="option-title" for="likely">Likely</label><input type="radio" name="recommend" id="likely" value="likely" />
+
+          <label class="option-title" for="unlikely">Unlikely</label><input type="radio" name="recommend" id="unlikely" value="unlikely" />
+
+          <label class="option-title" for="very-unlikely"></label>Very Unlikely</label><input type="radio" name="recommend" id="very-unlikely" value="very-unlikely" />
+        </div>
+
+        <hr>
+
+        <div class="divider">
+          <legend>What would you like to see improved?</legend>
+
+          <label class="option-title" for="front-end">Front End Curriculum</label><input type="checkbox" id="front-end" name="improvements" value="front-end" />
+
+          <label class="option-title" for="back-end">Back End Curriculum</label><input type="checkbox" id="back-end" name="improvements" value="back-end" />
+
+          <label class="option-title" for="python">Python Curriculum</label><input type="checkbox" id="python" name="improvements" value="python" />
+
+          <label class="option-title" for="projects">Type and quantity of Projects</label><input type="checkbox" id="projects" name="improvements" value="projects" />
+
+          <label class="option-title" for="help">Our Support channels. (Forum, discord, etc..)</label><input type="checkbox" id="help" name="improvements" value="help" />
+
+          <label class="option-title" for="courses">Type and quantity of Courses</label><input type="checkbox" id="courses" name="improvements" value="courses" />
+        </div>
+
+        <hr>
+
+        <div class="divider">
+          <label for="extra">Do you have any other Concerns or suggestions?</label>
+
+          <textarea id="extra" name="extra" rows="3" cols="35">Enter comments here:</textarea>
+        </div>
+      
+        <div class="divider">
+          <button type="submit" id="submit">Submit Form</button>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
